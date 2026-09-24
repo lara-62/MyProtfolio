@@ -1,8 +1,6 @@
 // import ejs 
 const ejs = require('ejs');
-
-
-// read data from data/data.json and render using ejs template and output them in a html file
+const path = require('path');
 const fs = require('fs');
 
 const data = {};
@@ -22,11 +20,14 @@ const projects = fs.readFileSync('data/projects.json', 'utf8');
 data.projects = JSON.parse(projects);
 const researches = fs.readFileSync('data/researches.json', 'utf8');
 data.researches = JSON.parse(researches);
-try{
-    const template = fs.readFileSync('templates/index.ejs', 'utf8');
-    const html = ejs.render(template, data);
+
+const templatePath = path.join(__dirname, "templates", "index.ejs");
+
+try {
+    const template = fs.readFileSync(templatePath, 'utf8');
+    // 👇 Pass filename so EJS knows where to resolve includes
+    const html = ejs.render(template, data, { filename: templatePath });
     fs.writeFileSync('index.html', html);
-}catch(err){
+} catch (err) {
     console.log(err);
 }
-

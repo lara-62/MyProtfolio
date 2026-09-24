@@ -1,28 +1,27 @@
 [
     {
-        "name": "Pridesys IT Ltd",
+        "name": "Brac University",
         "description": "",
         "location": "Dhaka, Bangladesh",
         "positions": [
             {
-                "position": "Software Engineer II",
-                "duration": "June 2024 - Present",
+                "position": "Lecturer",
+                "duration": "June 2025 - Present",
                 "description": "",
-                "projects": [
-                    "Redesigned application from a monolithic to microservices architecture, using Kafka to decouple services, which improved system reliability, and fault isolation, facilitated independent service scaling, and decreased deployment times.",
-                    "Incorporated CI/CD with github workflows, accelerating integration and deployment across multiple microservices and reducing development time by 20%",
-                    "Used Helm for k8s package management, Hashicorp’s Vault for secret management inside K8s, Terraform and Ansible for infrastructure provision and management"
+                "courses": [
+                    {
+                        "name": "Compiler Design"
+
+                        
+                    },
+                    {
+                        "name": "Database Management Systems",
+                        "description": "This course introduces students to the principles of database management systems (DBMS). Topics include relational databases, SQL, normalization, transactions, indexing, and database design. Students will gain hands-on experience in designing and implementing databases."
+                    }
                 ]
-            },{
-                "position": "Junior Software Engineer",
-                "duration": "Oct 2023 - May 2024",
-                "description": "",
-                "projects": [
-                    "Shifted the backend architecture from deprecated Oracle Forms to Spring Boot 3 resulting in better performance, and security, with support for modern RESTful APIs and a reduction in maintenance costs.",
-                    "Shifted the database from Oracle to PostgreSQL which reduced the overall cost by 70%",
-                    "Successfully deployed the backend and database of the cloud ERP on ACS (Azure Cloud Service) using AKS (Azure Kubernetes Service), ACR (Azure Container Registry), Cloud storage and NGINX which in turn increased reliability and availability by 20% and reduced infrastructure cost by appx 30%" 
-                ]
+                
             }
+            
         ]
     },{
         "name": "ICT Cell, BUET",
