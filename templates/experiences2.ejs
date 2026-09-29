@@ -8,9 +8,13 @@
         <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
-                <ion-icon name="trophy-outline"></ion-icon>
+                <ion-icon name="school-outline"></ion-icon>
               </div>
-              <h3 class="h3"><%=company.name%></h3>
+              <% if(company.url) { %>
+                <a class="h3 university-link" href="<%=company.url%>" target="_blank" rel="noopener noreferrer"><%=company.name%></a>
+              <% } else { %>
+                <h3 class="h3"><%=company.name%></h3>
+              <% } %>
             </div>
             <!-- <p class="timeline-text">
                 <%=company.description%>

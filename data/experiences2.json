@@ -1,45 +1,29 @@
 [
     {
         "name": "Brac University",
+        "url": "https://www.bracu.ac.bd",
         "description": "",
         "location": "Dhaka, Bangladesh",
         "positions": [
             {
                 "position": "Lecturer",
                 "duration": "June 2025 - Present",
-                "description": "",
-                "courses": [
-                    {
-                        "name": "Compiler Design"
-
-                        
-                    },
-                    {
-                        "name": "Database Management Systems",
-                        "description": "This course introduces students to the principles of database management systems (DBMS). Topics include relational databases, SQL, normalization, transactions, indexing, and database design. Students will gain hands-on experience in designing and implementing databases."
-                    }
-                ]
+                "description": ""
+               
                 
             }
             
         ]
     },{
-        "name": "ICT Cell, BUET",
+        "name": "United International University",
+        "url": "https://www.uiu.ac.bd",
         "location": "Dhaka, Bangladesh",
         "description": "",
         "positions": [
             {
-                "position": "Junior Backend Developer",
-                "duration": "Oct 2021 - Mar 2023",
-                "description": "I worked as a backend developer at ICT Cell of BUET. My primary goal was to develop a job portal for BUET aiming to eliminate manual book keeping. I was involved in designing the overall architecture and implementing system. Additionally, I contributed to the development of backend and deployment. Some of my notable works include:",
-                "projects": [
-                    "Designed and developed the application architecture for the job portal which decreased the overall life cycle of an application from 3 months to 1 week.",
-                    "Designed and developed the application scrutiny system which reduced the time to scrutinize an application from 1 month to 1 week.",
-                    "The overall system improved the communication between multiple departments and reduced the time to hire a candidate by 300%.",
-                    "Developed the backend for the job listing system which completely removed the necessity of manual job posting and decreasing the cost by 100%",
-                    "Automated the deployment of the system using github actions which reduced the deployment time by 50%.",
-                    "The system is actively being used by BUET for hiring and has facilitated more than 10,000 applicants from the start of the system."
-                ]
+                "position": "Lecturer",
+                "duration": "April 2025 - June 2025",
+                "description":""
             }
         ]
     }

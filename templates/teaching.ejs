@@ -1,0 +1,52 @@
+<article class="teaching" data-page="teaching">
+
+    <header>
+        <h2 class="h2 article-title">Teaching</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        <% teaching.forEach(function(item){ %>
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title"><%=item.institution%></h4>
+              <span><%=item.duration%></span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle"><%=item.position%></h5>
+            </div>
+            <% if(item.description) { %>
+              <p class="timeline-text">
+                <%=item.description%>
+              </p>
+            <% } %>
+            <% if(item.courses && item.courses.length > 0) { %>
+              <div class="multicol-list">
+                <div class="blog-text course-label">Courses Taught:</div>
+                <ul class="course-list">
+                  <% item.courses.forEach(function(course){ %>
+                    <li>
+                      <p class="timeline-text"><%=course.name%></p>
+                      <% if(course.semesters && course.semesters.length > 0) { %>
+                        <p class="course-semester">
+                          <% course.semesters.forEach(function(semester, index){ %>
+                            <%=semester%><% if(index < course.semesters.length - 1) { %>, <% } %>
+                          <% }); %>
+                        </p>
+                      <% } %>
+                      <% if(course.syllabus) { %>
+                        <p class="course-syllabus"><a class="syllabus-link" href="<%=course.syllabus%>" target="_blank" rel="noopener noreferrer">[Syllabus]</a></p>
+                      <% } %>
+                    </li>
+                  <% }); %>
+                </ul>
+              </div>
+            <% } %>
+          </li>
+        <% }); %>
+
+      </ol>
+
+    </section>
+  </article>

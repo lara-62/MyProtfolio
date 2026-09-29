@@ -68,6 +68,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --link-blue: hsl(210, 100%, 70%);
 
   /**
    * typography
@@ -877,6 +878,64 @@ main {
   line-height: 1.6;
 }
 
+/* [Syllabus] link of a course */
+.syllabus-link {
+  color: var(--link-blue);
+  transition: color var(--transition-1);
+}
+
+.syllabus-link:hover,
+.syllabus-link:focus { text-decoration: underline; }
+
+/* line holding the [Syllabus] link of a course, shown under its semester list */
+.course-syllabus {
+  line-height: 1.6;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+/* semesters a course was taken in, shown under the course name */
+.course-semester {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+/* label of the course list in the teaching section */
+.blog-text.course-label { font-weight: var(--fw-600); }
+
+/* list every course of the teaching section on its own line */
+.multicol-list ul.course-list {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+
+/* dot in front of every course name, like the one beside the institution name */
+.multicol-list ul.course-list li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  margin: 0;
+  height: 6px;
+  width: 6px;
+  background: var(--text-gradient-yellow);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--jet);
+}
+
+/* name of a company or university, shown as a clickable link in the experience section */
+.university-link {
+  transition: color var(--transition-1);
+}
+
+.university-link:hover,
+.university-link:focus { color: var(--orange-yellow-crayola); }
+
 .timeline-item::after {
   content: "";
   position: absolute;
@@ -1588,6 +1647,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 8px;
     width: 8px;
     left: -43px;
+  }
+
+  .multicol-list ul.course-list li::before {
+    height: 8px;
+    width: 8px;
+    left: 10px;
   }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }

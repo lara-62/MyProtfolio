@@ -1,0 +1,47 @@
+[
+    {
+        "institution": "Brac University",
+        "position": "",
+        "duration": "",
+        "description": "I am taking the following courses at Brac University. I have prepared the course materials, conducted labs, and mentored students throughout the semesters.I really love the working culture here.",
+        "courses": [
+            {
+                "name": "CSE 420 : Compiler Design",
+                "syllabus": "https://cse.bracu.ac.bd/course/view/CSE420",
+                "semesters": [
+                    "Summer 25","Fall 25","Spring 26","Summer 26","Fall 26"
+                ]
+            },
+            {
+                "name": "CSE 340 : Computer Architecture",
+                "syllabus": "https://cse.bracu.ac.bd/course/view/CSE340",
+                "semesters": [
+                   "Summer 25","Fall 25","Spring 26","Summer 26","Fall 26"
+                ]
+            }
+        ]
+    },
+    {
+        "institution": "United International University",
+        "position": "",
+        "duration": "",
+        "description": "I got so many experiences from teaching at United International University. As it was my first teaching experience, I learned a lot about how to handle students and how to prepare course materials. ",
+        "courses": [
+            {
+                "name": "CSE 4509 : Operating Systems",
+                "syllabus": "",
+                "semesters": [
+                    "Spring 25"
+                ]
+            },
+            {
+                "name": "CSE 1115: Object-Oriented Programming",
+                "syllabus": "",
+                "semesters": [
+                   "Spring 25"
+                ]
+            }
+            
+        ]
+    }
+]
