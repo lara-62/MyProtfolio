@@ -426,6 +426,7 @@ main {
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  overflow-wrap: break-word;
 }
 
 .contact-info address { font-style: normal; }
@@ -832,6 +833,15 @@ main {
   font-weight: var(--fw-500);
   margin-bottom: 5px;
 }
+
+/* co-author names of a research, rendered as clickable links */
+.coauthor-link {
+  color: var(--link-blue);
+  transition: color var(--transition-1);
+}
+
+.coauthor-link:hover,
+.coauthor-link:focus { text-decoration: underline; }
 
 .timeline-list span {
   color: var(--vegas-gold);
@@ -2012,9 +2022,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   .contact-info :is(.contact-link, time, address) {

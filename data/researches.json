@@ -1,14 +1,21 @@
 [
     {
-        "title": "Faster and Improved CD-MAWS with Suffix Automata",
+        "title": "Automated Blackbox Fuzzing of Restful APIs",
         "subtitle": "Undergraduate thesis work",
         "coauthors": [
-            "Dr. M. Saifur Rahman (Supervisor)"
+            {
+                "name": "Mr. Arnob Saha Ankon",
+                "url": "https://cse.bracu.ac.bd/faculty_profile/498/arnob_saha_ankon"
+            },
+            {
+                "name": "Dr. Md. Shohrab Hossain (Supervisor)",
+                "url": "https://cse.buet.ac.bd/faculty/faculty_detail/mshohrabhossain"
+            }
         ],
         "keywords": [
-            "Phylogeny",
-            "Suffix Automata"
+            "Fuzzing",
+            "API Security"
         ],
-        "description": "We introduce a refined CD-MAWS method for phylogeny estimation, significantly reducing computational complexity from max(O(m^n), O(m^n log n)) to max(O(m^n), O(mnk)) while maintaining tree quality. Here, m is the number of species, n is the size of DNA of a species, and k is the maximum MAW length. This advancement is achieved through a revised cosine distance calculation method, binary encoding of MAWs, and the adoption of suffix automata for MAW generation, addressing the main computational bottleneck and setting a better runtime for alignment-free phylogenetic analysis"
+        "description": "This thesis focuses on automated black-box fuzzing of RESTful APIs to identify security vulnerabilities and unexpected application behavior without requiring access to source code. The research explores API specification-guided test generation, stateful request sequencing, and dynamic extraction and reuse of response values to handle dependencies between API operations. The goal is to improve the effectiveness of automated API testing by generating meaningful request sequences and uncovering vulnerabilities in real-world web applications."
     }
 ]

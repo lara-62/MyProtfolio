@@ -14,8 +14,12 @@
             <% if(research.coauthors && research.coauthors.length > 0 ) { %>
                 <h5 class="h5 timeline-item-subtitle-research">Co-authors: 
                     <% research.coauthors.forEach(function(coauthor, index){ %>
-                        <%= coauthor %>
-                        <% if(index < research.coauthors.length - 1) { %> , <% } %>
+                        <% var name = coauthor.url ? coauthor.name : coauthor; %>
+                        <% if(coauthor.url) { %>
+                            <a class="coauthor-link" href="<%= coauthor.url %>" target="_blank" rel="noopener noreferrer"><%= name %></a>
+                        <% } else { %>
+                            <%= name %>
+                        <% } %>
                     <% }); %>
                 </h5>
             <% } %>

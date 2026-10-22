@@ -20,7 +20,12 @@
                 "projects":[
                     "https://github.com/","https://github.com/"
                 ]
-            },{
+            },
+            {
+                "name": "Python",
+                "badge":"https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"
+            },
+            {
                 "name": "Javascript",
                 "badge":"https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
                 "projects":[
@@ -34,10 +39,8 @@
                 ]
             },{
                 "name": "Bash",
-                "badge":"https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
-                "projects":[
-                    "https://github.com/","https://github.com/"
-                ]
+                "badge":"https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"
+                
             }
         ]
     },{
@@ -89,14 +92,6 @@
                 "projects":[
                     "https://github.com/","https://github.com/"
                 ]
-            },{
-                "name": "Redis",
-                "badge":"https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Hadoop",
-                "badge":"https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black",
-                "projects":[]
             }
         ]
     },{
@@ -109,73 +104,6 @@
             },{
                 "name": "Docker",
                 "badge":"https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Kubernetes",
-                "badge":"https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Hashicorp's Vault",
-                "badge":"https://img.shields.io/badge/vault-%23FFEC6E.svg?style=for-the-badge&logo=vault&logoColor=black",
-                "projects":[]
-            },{
-                "name": "Nginx",
-                "badge":"https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white",
-                "projects":[]
-            }
-        ]
-    },{
-        "name": "Testing",
-        "stacks": [
-            {
-                "name": "JUnit5",
-                "badge":"https://img.shields.io/badge/junit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Testcontainer",
-                "badge":"https://img.shields.io/badge/TestContainer-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Graphana K6",
-                "badge":"https://img.shields.io/badge/K6-%237D64FF.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
-                "projects":[]
-            }
-        ]
-    },{
-        "name": "DevOps",
-        "stacks": [
-            {
-                "name":"Terraform",
-                "badge":"https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Helm",
-                "badge":"https://img.shields.io/badge/helm-%230e1689.svg?style=for-the-badge&logo=helm&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Github Workflow",
-                "badge":"https://img.shields.io/badge/github%20workflow-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white",
-                "projects":[]
-            }
-        ]
-    },{
-        "name": "Clouds",
-        "stacks": [
-            {
-                "name": "Azure Cloud Service",
-                "badge":"https://img.shields.io/badge/azure%20cloud-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Azure Kubernetes Service",
-                "badge":"https://img.shields.io/badge/azure%20kubernetes-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Azure Cloud Storage",
-                "badge":"https://img.shields.io/badge/azure%20storage-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
-                "projects":[]
-            },{
-                "name": "Azure Container Registry",
-                "badge":"https://img.shields.io/badge/azure%20container%20registry-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
                 "projects":[]
             }
         ]

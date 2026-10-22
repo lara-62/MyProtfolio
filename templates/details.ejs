@@ -35,7 +35,6 @@
                 </a>
               </li>
         <% } %>
-
         <% if( user.codeforces) { %>
             <li class="social-item">
                 <a href=<%=user.codeforces%> class="social-link" target="_blank" rel="noopener noreferrer">
@@ -57,6 +56,19 @@
     <div class="separator"></div>
     <div class="sidebar-info_more">
       <ul class="contacts-list">
+
+        <% if(user.website) {%>
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="school"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <a href=<%=user.website%> class="contact-link" style="white-space: nowrap;" target="_blank" rel="noopener noreferrer">
+                    Professional Website
+                  </a>
+                </div>
+              </li>
+        <% } %>
 
         <% if(user.email) { %>
             <li class="contact-item">
